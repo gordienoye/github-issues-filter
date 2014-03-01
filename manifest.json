@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "GitHub Issues Filter",
+  "description": "Filters the GitHub issues list to remove pull requests",
+  "version": "1.0",
+
+  "icons": {
+    "16": "issues_filter16.png",
+    "48": "issues_filter48.png",
+    "128": "issues_filter128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/issues*"],
+      "js": ["issues_filter.js"]
+    }
+  ]
+}
