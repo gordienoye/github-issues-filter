@@ -4,6 +4,8 @@
   "name": "GitHub Issues Filter",
   "description": "Filters the GitHub issues list to remove pull requests",
   "version": "1.0",
+  "author": "Gordie Noye",
+  "homepage_url": "https://github.com/gordienoye/github-issues-filter",
 
   "icons": {
     "16": "issues_filter16.png",
